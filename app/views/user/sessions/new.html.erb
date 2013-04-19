@@ -1,0 +1,7 @@
+<h1>Sign In</h1>
+
+<%= form_tag do %>
+  <%= email_field(:user, :email) %>
+  <%= password_field(:user, :password) %>
+  <%= submit_tag("Sign In!") %>
+<% end %>
